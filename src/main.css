@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+button {
+    box-sizing: border-box;
+    border: none;
+    
+}
+
+body {
+    background-color: #f3f3f5;
+     
+    font-family: "Montserrat", serif;
+   
+}
+
+header {
+    display: grid;
+    grid-template-columns: 2fr  9fr;
+}
+
+header > nav  > ul  {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20PX;
+    justify-content: end;
+}
+
+
+
+header > nav  > ul > li > a  {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #111;
+    transition: color .4s ease-in-out;
+}
+
+header > nav  > ul > li > a:hover {
+    color: #f98f93;
+
+}
+
+header > img {
+    width: 100px;
+    height: auto;
+}
+
+body {
+    padding: 0.8rem;
+}
+
+main {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #111;
+    border-radius: 50px;
+}
+
+main > info {
+    flex-basis: 45%;
+}
+
+main > .image {
+    flex-basis: 25%;
+} 
+
+main > .image > img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+} 
+
+main > .info > h1 {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 30px;
+}
+
+main > .info > button {
+    border-radius: 30px;
+    background-image: linear-gradient(to top, #f9d3c2, #feb1a7);
+    padding: 10px 20px;
+    font-weight: 700;
+    margin-top: 40px;
+    cursor: pointer;
+    margin: 30px; 
+}
+
+main > .info > button > a:hover {
+    transition: color .4s ease-in-out;
+    
+
+
+    color: #f3f3f5;
+
+}
+
+
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+section {
+    display: flex;
+    grid-template-columns: 1fr;
+    
+}
+section > article > h2 {
+    margin-bottom: 10px;
+    
+}
+
+section > article {
+    background-image: url();
+    border: 1px solid #111;
+    border-radius: 50px;
+    
+    padding: 15px;
+    margin: 10px;
+}
+
+section > .one {
+
+}
+
+section > article .two {
+    
+}
+
+section > article .thee {
+    
+}
+
+/* @media only screen and (max-width: 1200px){
+  
+}
+
+@media only screen and (max-width: 992px){
+    
+}
+
+@media only screen and (max-width: 768px){
+    
+}
+
+@media only screen and (max-width: 480px){
+    
+}
+
+@media only screen and (max-width: 320px){
+    
+} */
